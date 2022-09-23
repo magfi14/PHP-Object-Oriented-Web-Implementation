@@ -1,0 +1,36 @@
+html {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgb(251, 251, 251);
+}
+
+.container:hover {
+    transition: 1.5s;
+    box-shadow: 2px 20px 20px rgb(247, 247, 247);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.indent {
+    padding-left: 20px;
+}

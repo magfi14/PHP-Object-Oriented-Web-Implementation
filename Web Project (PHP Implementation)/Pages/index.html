@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Web Project</title>
+        <link rel="stylesheet" href="../Stylesheets/styles.css" />
+    </head>
+
+    <body>
+        <div class="container" id="title">
+            <h1>Web Project</h1>
+            <p>This is a web project. <b>Simple web project for object oriented programming.</b></p>
+            <p class="indent">The form below will input data into a receiver, which will store in an object.</p>
+        </div>
+        <div class="container" id="content">
+            <form action="../Receivers/speedheightratioreceiver.php" method="post">
+                <label for="speed">Speed:</label>
+                <input type="text" id="speed" name="speed" />
+                <label for="height">Height:</label>
+                <input type="text" id="height" name="height" />
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </body>
+
+</html>
